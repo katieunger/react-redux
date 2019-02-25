@@ -1,7 +1,8 @@
 import React from 'react';
+import faker from 'faker';
 
 const CommentDetail = () => {
-    return(
+    return (
         <div className="comment">
             <a href="/" className="avatar">
                 <img alt="avatar" src={faker.image.avatar()}/>
@@ -20,3 +21,5 @@ const CommentDetail = () => {
         </div>
     );
 };
+
+export default CommentDetail;
