@@ -10,23 +10,13 @@ class App extends React.Component {
             lat: null,
             errorMessage: ''
         };
-
-        window.navigator.geolocation.getCurrentPosition(
-            (position) => {
-                this.setState({lat: position.coords.latitude})
-            },
-            (err) => {
-                this.setState({errorMessage: err.message})
-            }
-        );
     }
 
     componentDidMount() {
-        console.log('My component was rendered to the screen!');
-    }
-
-    componentDidUpdate() {
-        console.log('My component was just updated - it rerendered!');
+        window.navigator.geolocation.getCurrentPosition(
+            (position) => this.setState({lat: position.coords.latitude}),
+            (err) => this.setState({errorMessage: err.message})
+        );
     }
 
     // React says we have to define render
