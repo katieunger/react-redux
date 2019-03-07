@@ -2,14 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-        // This is the the only time we do direct assignment
-        // to this.state!
-        this.state = {
-            lat: null,
-            errorMessage: ''
-        };
+    state = {
+        lat: null,
+        errorMessage: ''
     }
 
     componentDidMount() {
