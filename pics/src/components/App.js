@@ -9,7 +9,7 @@ class App extends React.Component {
         axios.get('https://api.unsplash.com/search/photos', {
             params: { query: term },
             headers: {
-                Authorization: 'Client-ID ' + keys.axiosKey
+                Authorization: 'Client-ID ' + keys.unsplashKey
             }
         });
     }
