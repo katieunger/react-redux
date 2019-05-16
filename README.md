@@ -9,6 +9,8 @@ Each folder contains a sample React project built within Stephen Grider's "Moder
 - Seasons
 - Pics
 - Videos
+- Songs
+- Streams
 
 In each project directory, you can run:
 
