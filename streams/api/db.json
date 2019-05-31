@@ -1,3 +1,9 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "Music Channel",
+      "description": "Streaming Tunes",
+      "id": 1
+    }
+  ]
 }
