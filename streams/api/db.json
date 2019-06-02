@@ -4,6 +4,11 @@
       "title": "Music Channel",
       "description": "Streaming Tunes",
       "id": 1
+    },
+    {
+      "title": "Cooking Channel",
+      "description": "Cooking videos",
+      "id": 2
     }
   ]
 }
