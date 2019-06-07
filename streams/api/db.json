@@ -9,6 +9,12 @@
       "title": "Cooking Channel",
       "description": "Cooking videos",
       "id": 2
+    },
+    {
+      "title": "Coding Stream",
+      "description": "Coding videos",
+      "userId": "112590117574416847790",
+      "id": 3
     }
   ]
 }
