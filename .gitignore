@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /streams/api/node_modules
+/streams/rtmp_server/node_modules
 
 # testing
 /coverage
